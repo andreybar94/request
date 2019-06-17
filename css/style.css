@@ -1,0 +1,215 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 950px;
+  margin-right: auto;
+  margin-left: auto; 
+
+  font-family: Arial, Helvetica,sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+  
+  background-color: #efefef;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-navigation {
+  background-color: #e0e0e0;
+}
+
+.user-navigation {
+  background-color: #ffffff; 
+}
+
+.site-navigation,
+.user-navigation {
+  list-style: none;
+  color:#184e84;
+}
+
+.site-navigation a,
+.user-navigation a {
+  color: green;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus,
+.user-navigation a:hover,
+.user-navigation a:focus {
+  background-color: #cac9c8;
+}
+
+.container{
+  background-color: #d1e6f9;
+}
+
+.container h1 {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 24px;
+  line-height: 20px;
+  color:#184e84;
+}
+
+.main-footer {
+  background-color: #ffffff;
+
+  color:#184e84;
+}
+
+.main-footer a {
+  color: green;
+}
+
+.main-footer a:hover,
+.main-footer a:focus {
+  background-color: #cac9c8;
+}
+
+.center-element{ 
+  text-align: center;
+}
+
+.table-list{
+   list-style: none; 
+}
+
+.table-list a {
+  color: green;
+}
+
+.table-list a:hover,
+.table-list a:focus {
+  background-color: #cac9c8;
+}
+
+.php-table{
+  margin:   10px 20px;
+  padding:  0;
+  width:    90%;
+  border-bottom:  1px solid #888;
+  border-left:  1px solid #888;
+  text-align: center;
+  border-collapse: collapse
+}
+
+.php-table td,
+.php-table th{
+  border-top: 1px solid #888;
+  border-right: 1px solid #888;
+}
+
+.php-table tr + tr{
+  font: 0.9em "Times new Roman";
+}
+
+
+.php-table tr + tr:hover
+{
+  background-color: #cde;
+}
+
+.php-table th.choice{
+  width:  35px;
+}
+
+.buttons{
+  font-size: 0;
+  line-height: 0; 
+  width: 45px;
+  height: 45px;
+  
+}
+.buttons.add{
+  background-image:url(../img/sprite.png);
+  background-repeat:no-repeat;
+  background-position: -376px -108px;
+  
+}
+.buttons.upd{
+  background-image:url(../img/sprite.png);
+  background-repeat:no-repeat;
+  background-position: -230px -325px;
+  
+}
+.buttons.del{
+  background-image:url(../img/sprite.png);
+  background-repeat:no-repeat;
+  background-position: -448px -108px;
+  
+}
+
+.error { /* Ошибка */
+  text-align: center;
+  color: #FF0000;
+  font-weight: bold;
+}
+
+.main-header { 
+  width: 950px;
+}
+
+.user-navigation {
+  padding: 5px;
+  height: 100px;
+  margin:0;
+}
+
+.main-header-logo{
+  text-align: center;
+}
+
+.date {
+  position: relative;
+  float: right;
+  text-align: right;
+  width: 200px;
+}
+
+.login-link {
+  width: 200px;
+  position: relative;
+  float: left;
+}
+
+.main-navigation {
+  position: relative;
+  float: left;
+  width: 200px;
+  margin: 0;
+}
+
+.main-navigation a {
+  display: block;
+  width: 190px;
+  padding: 5px;
+}
+
+.site-navigation{
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  position: relative;
+  float: left;
+  width: 750px;
+}
+
+.container p { 
+  padding: 2px 20px; 
+  margin-bottom: 7px; 
+  margin-top: 0px; 
+}
+
+.main-footer {
+  position: relative;
+  clear: left; /* Отмена обтекания слева */
+  width: 950px; 
+  margin-right: auto;
+  margin-left: auto; 
+}
